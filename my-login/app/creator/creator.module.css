@@ -1,0 +1,19 @@
+.main {
+    background-color: #490000;
+    max-width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    margin: 2rem;
+    max-width: 50%;
+    height: 40vh;
+    border-radius: 100%;
+    border: 3px solid #E2DBCC;
+}
