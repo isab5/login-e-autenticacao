@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: #490000;
+    color: #E2DBCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #490000;
+    padding: 2rem;
+}
+
+.links {
+    padding: 2rem;
+    background-color: #490000;
+}
+
+.list {
+    background-color: #490000;
+    list-style: none;
+    color: #E2DBCC;
+}
+

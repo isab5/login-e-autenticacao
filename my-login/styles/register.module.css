@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    width: 30%;
+    border-radius: 2rem;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 6px rgb(78, 76, 76);
+  }
+  
+  .title {
+    padding-bottom: 1rem;
+  }
+  
+  .input {
+    width: 70% ;
+    margin-bottom: 2rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+  }

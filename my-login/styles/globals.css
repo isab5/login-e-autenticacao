@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  background-color: #E2DBCC;
+  font-family: "Work Sans", sans-serif;
+}
