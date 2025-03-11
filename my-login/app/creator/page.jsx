@@ -9,6 +9,7 @@ export default function Register() {
         <Header />
         <main className={styles.main}>
           <Image className={styles.image} src={Isabella} alt="Foto da criadora do login" />
+          <h2>Isabella Borin</h2>
         </main>
       </div>
     );
