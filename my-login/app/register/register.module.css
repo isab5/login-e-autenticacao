@@ -18,6 +18,10 @@
   .title {
     padding-bottom: 1rem;
   }
+
+  .label {
+    text-align: center;
+  }
   
   .input {
     width: 70% ;

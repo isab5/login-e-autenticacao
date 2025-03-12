@@ -3,20 +3,30 @@
     max-width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .image {
     margin: 2rem;
-    max-width: 50%;
-    height: 40vh;
+    width: 40%;
+    height: auto;
     border-radius: 100%;
     border: 3px solid #E2DBCC;
+}
+
+.name {
+    background-color: #490000;
+    color: #E2DBCC;
+}
+
+.text {
+    background-color: #490000;
+    color: #E2DBCC;
+    padding: 2rem;
 }
