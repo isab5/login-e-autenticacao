@@ -1,7 +1,7 @@
 .main {
     background-color: #490000;
     max-width: 50%;
-    height: 100vh;
+    height: auto;
     display: flex;
     position: absolute;
     top: 80%;
@@ -17,17 +17,23 @@
     width: 40%;
     height: auto;
     border-radius: 100%;
-    border: 3px solid #E2DBCC;
+    border: 3px solid white;
 }
 
 .name {
-    background-color: #490000;
-    color: #E2DBCC;
+    color: white;
+    font-size: 2rem;
 }
 
 .text {
-    background-color: #490000;
-    color: #E2DBCC;
+    color: whitesmoke;
     padding: 2rem 5rem;
-    font-size: larger;
-    text-align: justify;}
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+@media (max-width:1024px) {
+    .main {
+        top: 100%;
+    }
+}

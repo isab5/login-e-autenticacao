@@ -1,9 +1,9 @@
-import styles from "./creator.module.css";
+import styles from "./profile.module.css";
 import Header from "../../components/Header";
 import Image from "next/image";
 import Isabella from "../../public/Isabella.jpg";
 
-export default function Register() {
+export default function Profile() {
     return (
       <div>
         <Header />
