@@ -28,5 +28,6 @@
 .text {
     background-color: #490000;
     color: #E2DBCC;
-    padding: 2rem;
-}
+    padding: 2rem 5rem;
+    font-size: larger;
+    text-align: justify;}

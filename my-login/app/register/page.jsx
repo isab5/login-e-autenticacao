@@ -17,7 +17,7 @@ export default function Register() {
           <label className={styles.label}  htmlFor="text">Confirme a senha:</label>
           <input className={styles.input} type="password" placeholder="********" />
           <Button props="Criar" />
-          <p>Já possui uma conta?<a href="/">Faça Login</a></p>
+          <p>Já possui uma conta? <a href="/">Faça Login</a></p>
           <p>Saiba mais sobre o criador em: <a href="/creator">Profile</a></p>
         </div>
     </div>
