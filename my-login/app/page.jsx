@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import styles from "../styles/page.module.css";
 
 export default function Home() {
     const router = useRouter();
@@ -10,6 +11,6 @@ export default function Home() {
     }, [router]);
 
     return (
-        <p>Redirecionamento...</p>
+        <p className={styles.text}>Redirecionamento...</p>
     )
 }

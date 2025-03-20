@@ -1,7 +1,7 @@
 import styles from "./signin.module.css";
 import Button from "../../components/Button";
 
-export default function Signin() {
+export default function SignIn() {
   return (
     <div>
         <div className={styles.card}>
