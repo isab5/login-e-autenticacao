@@ -1,15 +1,20 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     background-color: #490000;
     max-width: 50%;
     height: auto;
     display: flex;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 2rem 2rem 0 0;
+    margin-top: 4rem ;
 }
 
 .image {

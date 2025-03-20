@@ -1,0 +1,22 @@
+.main {
+    color: white;
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 2rem;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.img {
+    width: 30%;
+    height: 25vh;
+    padding: 2rem;
+}
+
+.containerText {
+    padding: 2rem;
+}
+
+.title {
+    padding-bottom: 1rem ;
+}
