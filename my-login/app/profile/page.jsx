@@ -6,6 +6,10 @@ import Card from "../../components/Card";
 import JavaScript from "../../public/JavaScript.png";
 import Nodejs from "../../public/Nodejs.png";
 import Postgresql from "../../public/Postgresql.png";
+import React from "../../public/React.png";
+import Nextjs from "../../public/Nextjs.png";
+import HTML from "../../public/HTML.png";
+import CSS from "../../public/CSS.png";
 
 export default function Profile() {
     return (
@@ -19,6 +23,11 @@ export default function Profile() {
           <Card image={JavaScript} linguagem={"JavaScript"} description={"JavaScript é uma linguagem de programação que permite criar páginas da web interativas."} />
           <Card image={Nodejs} linguagem={"Node.js"} description={"Node.js é uma plataforma que permite executar JavaScript no lado do servidor, ou seja, fora do navegador."} />
           <Card image={Postgresql} linguagem={"PostgreSQL"} description={"PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto."} />
+          <Card image={React} linguagem={"React"} description={"O React é uma biblioteca JavaScript que serve para criar interfaces de usuário (UI) para aplicativos web e dispositivos móveis."} />
+          <Card image={React} linguagem={"React Native"} description={"O React Native é uma estrutura de código que permite criar aplicativos para dispositivos móveis, como Android e iOS, usando JavaScript."} />
+          <Card image={Nextjs} linguagem={"Next.js"} description={"O Next.js é um framework JavaScript que serve para criar aplicações web. Ele é uma extensão do React, que é uma biblioteca JavaScript. O Next.js ajuda a construir sites e aplicações web de alto desempenho, com foco na experiência do usuário. "} />
+          <Card image={HTML} linguagem={"HTML"} description={"O HTML (Hypertext Markup Language) é uma linguagem de marcação de hipertexto que serve para estruturar a estrutura e o conteúdo de uma página web."} />
+          <Card image={CSS} linguagem={"CSS"} description={"O CSS (Cascading Style Sheets) é uma linguagem de programação que define a aparência de páginas da web. "} />
         </main>
       </div>
     );
